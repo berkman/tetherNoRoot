@@ -21,6 +21,6 @@ else
     echo "net.tethering.noprovisioning=true" >> build.prop
 fi
 
-#adb push build.prop /system/build.prop
+adb push build.prop /system/build.prop
 
 adb reboot
